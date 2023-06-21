@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Login() {
+function Vedio() {
   return (
     <div>
-      <h2>login pahge </h2>;
+      <p>vedis</p>
     </div>
   )
 }
 
-export default Login
+export default Vedio

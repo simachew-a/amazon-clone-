@@ -1,32 +1,27 @@
-import React from 'react';
-import './App.css';
+//import { Task } from '@mui/icons-material'
+import React from 'react'
+import Navbar from './components/Navbar'
+import Intro from './components/Intro/Intro'
+import Survices from './components/survice/Survices'
+import Experiance from './components/experiance/Experiance'
+import Works from './components/works/Works'
 
-import Home from './Home';
-
-import Checkout from './Checkout';
-import Signin from './Signin';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import ('./App.css')
 function App() {
+  
+  
   return (
-<>
-
-    <BrowserRouter>
-  
-      <Routes>
-
-      <Route path='/' element={<Home />}>
-       
-      </Route>
-          <Route path="/Checkout" element={<Checkout />}>
-          </Route>
-          <Route path="/sign in" element={<Signin />} >
-  
-        </Route>
-      </Routes>
-    </BrowserRouter>
-    </>
-  );
+    <div>
+    <Navbar />
+    <Intro />
+    <Survices />
+    <Experiance />
+    <Works />
+    
+   
+      
+    </div>
+  )
 }
 
-export default App;
+export default App

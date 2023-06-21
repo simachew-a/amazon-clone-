@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Home() {
+function Chanal() {
   return (
     <div>
-      <p>home</p>
+      <p>chanal</p>
     </div>
   )
 }
 
-export default Home
+export default Chanal
